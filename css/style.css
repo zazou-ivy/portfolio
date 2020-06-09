@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #636363;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
@@ -176,7 +176,6 @@ ul, li, ol{
 	padding: 0px;
 }
 
-
 /*------------------------------------------------------------------
     WP CORE
 -------------------------------------------------------------------*/
@@ -266,7 +265,6 @@ a img.aligncenter {
     padding: 0 4px 5px;
 }
 
-
 /* Text meant only for screen readers. */
 
 .screen-reader-text {
@@ -297,7 +295,6 @@ a img.aligncenter {
     z-index: 100000;
     /* Above WP toolbar. */
 }
-
 
 /*------------------------------------------------------------------
     HEADER
@@ -443,7 +440,6 @@ xclip
   opacity: 1;
 }
 
-
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -564,8 +560,6 @@ xclip
     color: #ffffff;
 }
 
-
-
 .btn-hover-new{
 	color: #333333;
 	-webkit-transition: all 0.5s;
@@ -627,9 +621,6 @@ xclip
     transform: translate(0, 0);
 }
 
-
-
-
 .right-box-pro{
 	position: relative;
 	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
@@ -650,8 +641,6 @@ xclip
     z-index: 0;
 }
 
-
-
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
@@ -671,7 +660,6 @@ xclip
 	font-size: 22px;
 	font-weight: 600;
 }
-
 
 /*------------------------------------------------------------------
     PORTFOLIO
@@ -804,7 +792,6 @@ xclip
     text-align: center;
 }
 
-
 /*------------------------------------------------------------------
     TESTIMONIALS
 -------------------------------------------------------------------*/
@@ -883,7 +870,6 @@ xclip
 .testimonial p:after {
     display: none;
 }
-
 
 /*------------------------------------------------------------------
     PRICING TABLES
@@ -973,7 +959,6 @@ xclip
     padding-bottom: 30px;
 }
 
-
 /* Highlighted table */
 
 .pricing-table-highlighted {
@@ -1000,7 +985,6 @@ xclip
     text-align: center;
     background-color: #f4f4f4;
 }
-
 
 /*------------------------------------------------------------------
     ICON BOXES
@@ -1075,7 +1059,6 @@ xclip
     margin-left: 5px;
     font-size: 11px;
 }
-
 
 /*------------------------------------------------------------------
     MESSAGE BOXES
@@ -1362,7 +1345,6 @@ hr.invis1 {
     z-index: 1;
 }
 
-
 /* Divider Styles */
 
 .divider-wrapper {
@@ -1442,7 +1424,6 @@ hr.invis1 {
 	border-radius: 0px;
 }
 
-
 .gallery-single{
 	margin: 30px 15px;;
 }
@@ -1481,7 +1462,6 @@ hr.invis1 {
 	top: 50%;
 }
 
-
 .post-box .date{
 	display: inline-block;
 	position: absolute;
@@ -1508,7 +1488,6 @@ hr.invis1 {
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 }
-
 
 .post-box .post-thumb::before{
 	content: "";
@@ -1550,7 +1529,6 @@ hr.invis1 {
 	display: inline-block;
 	text-align: center;
 }
-
 
 /*------------------------------------------------------------------
     FEATURES
@@ -1704,7 +1682,6 @@ hr.invis1 {
     margin: 0;
     font-size: 19px;
 }
-
 
 /*------------------------------------------------------------------
     CONTACT
@@ -2024,7 +2001,6 @@ select.mobile-device {
     opacity: 0;
 }
 
-
 /*# sourceMappingURL=bootstrap-select.css.map */
 
 .bootstrap-select > .btn {
@@ -2083,7 +2059,6 @@ select.mobile-device {
 #contact {
     background: url(images/bg.png) no-repeat center center #333333;
 }
-
 
 #contact .section-title p{
 	color: #ffffff;
@@ -2216,7 +2191,6 @@ select.mobile-device {
     overflow: hidden;
 }
 
-
 /* Footer left */
 
 .footer-distributed .footer-left {
@@ -2243,13 +2217,11 @@ select.mobile-device {
     padding: 0;
 }
 
-
 /* Footer right */
 
 .footer-distributed .footer-right {
     float: right;
 }
-
 
 /* The search form */
 
@@ -2275,7 +2247,6 @@ select.mobile-device {
     outline: none;
 }
 
-
 /* Changing the placeholder color */
 
 .footer-distributed form input::-webkit-input-placeholder {
@@ -2290,7 +2261,6 @@ select.mobile-device {
 .footer-distributed form input:-ms-input-placeholder {
     color: #999;
 }
-
 
 /* The magnify glass icon */
 
@@ -2401,7 +2371,6 @@ select.mobile-device {
     display: block
 }
 
-
 #main-ld {
   width: 70px;
   height: 70px;
@@ -2467,4 +2436,55 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* ===================================AJOUT LEA==================================== */ 
+
+.icons_presentation{
+
+width: 50px;
+
+}
+
+#about h2{
+font-weight: 700;
+}
+
+.languages_icon{
+
+   max-width: 45px; 
+}
+
+/* ===================================== */
+
+.message, .overlay {
+  background-color: rgb(33,33,33);
+  position:absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+}
+.message{
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 200px;
+}
+.overlay {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAEUlEQVQIW2NkgAJGIG0MYgMAASwANtiKJ24AAAAASUVORK5CYII=") repeat transparent;
+  height: 220px;
+}
+.letter{
+  animation-duration: .5s;
+  animation-name: pop;
+}
+
+@keyframes pop
+  0%
+    color: lightColor 
+    text-shadow: 0px 0px 100px lightColor , 0px 0px 70px lightColor , 0px 0px 30px lightColor 
+  10%
+    color: lightColor 
+    text-shadow: 0px 0px 40px lightColor , 0px 0px 20px lightColor 
+  100%
+    color: white
 }
