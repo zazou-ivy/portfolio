@@ -2455,36 +2455,11 @@ font-weight: 700;
    max-width: 45px; 
 }
 
+#welcome{
+
+margin-top: 70px;
+font-size: 1.5rem;
+color: #fad618;
+}
+
 /* ===================================== */
-
-.message, .overlay {
-  background-color: rgb(33,33,33);
-  position:absolute;
-  top:0px;
-  left:0px;
-  width: 100%;
-}
-.message{
-  padding-top: 20px;
-  padding-left: 20px;
-  height: 200px;
-}
-.overlay {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAEUlEQVQIW2NkgAJGIG0MYgMAASwANtiKJ24AAAAASUVORK5CYII=") repeat transparent;
-  height: 220px;
-}
-.letter{
-  animation-duration: .5s;
-  animation-name: pop;
-}
-
-@keyframes pop
-  0%
-    color: lightColor 
-    text-shadow: 0px 0px 100px lightColor , 0px 0px 70px lightColor , 0px 0px 30px lightColor 
-  10%
-    color: lightColor 
-    text-shadow: 0px 0px 40px lightColor , 0px 0px 20px lightColor 
-  100%
-    color: white
-}
