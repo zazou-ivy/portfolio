@@ -2454,9 +2454,16 @@ padding-right: 5px;
 font-weight: 700;
 }
 
+.technology_icon{
+    margin: 20px;
+font-size: 2.8rem;
+color: #3a3a3a;
+
+}
+
 .languages_icon{
-color: chartreuse;
-   max-width: 70px; 
+    color: #e7a222;
+    max-width: 70px; 
 }
 
 #welcome{
@@ -2466,6 +2473,41 @@ font-size: 1.7rem;
 color: #fad618;
 }
 
+.colors{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+#color1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: black;
+}
+#color2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+}
+#color3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: orange;
+}
+
+.techonology_part{
+    width: 20%;
+    text-align: center
+    
+}
+
+.social_icon{
+
+    color:#d4c2c2;
+}
 /* ===================================== */
 .timeline {
     list-style: none;
