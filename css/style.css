@@ -446,7 +446,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #2a2626;
 }
 
 #clouds{
@@ -2476,7 +2476,7 @@ color: #fad618;
 .colors{
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 
 }
 #color1 {
@@ -2505,8 +2505,18 @@ color: #fad618;
 }
 
 .social_icon{
-
+font-size: 2rem;
     color:#d4c2c2;
+}
+
+#pianochat_section{
+height: auto;
+}
+
+#mainNav .navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2a2626;
 }
 /* ===================================== */
 .timeline {

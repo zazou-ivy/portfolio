@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <!-- Basic -->
     <meta charset="utf-8">
@@ -29,6 +28,14 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/owl.carousel.css">
 
+    <!-- fancy box -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- hjhj -->
+
+
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
@@ -42,7 +49,17 @@
 
 </head>
 
-<body>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+            <div id="loader"></div>
+        </div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -79,8 +96,29 @@
         </div>
     </nav>
 
-    <section id="pianochat_section" class="main-banner parallaxie" style="background: url('images/diagmonds.png')">
+    <section id="home" class="main-banner parallaxie" style="background: url('images/diagmonds.png')">
         <div class="heading">
+            <h1>Hi i'm Lea 🤖 </h1>
+            <h3 class="cd-headline clip is-full-width">
+                <span class="cd-words-wrapper">
+                    <b class="is-visible">I'm web developper full-stack</b>
+                    <b>I'm living in Marseille</b>
+                    <b>Cool to see you !</b>
+                </span>
+            </h3>
+            <p id="welcome">Welcome to my portfolio</strong>
+
+            <h2 class="social">
+                <a href="https://www.linkedin.com/in/zazou-ivy/" title="" class="linkedin" target="_blank">
+                    <i class="fab fa-linkedin-in social_icon"></i>
+                </a>
+                <a href="https://github.com/zazou-ivy" title="" class="github" target="_blank">
+                    <i class="fab fa-github social_icon"></i>
+                </a>
+                <a href="mailto:lea..myriam.zaoui@gmail.com" title="" class="email"><i
+                        class="fa fa-envelope social_icon" target="_blank"></i>
+                </a>
+            </h2>
         </div>
 
     </section>
@@ -88,9 +126,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8 pt-5">
+            <div class="col-md-8">
                 <div class="message-box">
-                    <h2 class="font-weight-bold">PianoChat</h2>
+                    <h2 class="font-weight-bold">Kimie Beauty</h2>
                     <h2> Présentation du concept</h2>
                     <p>PianoChat est un réseau social permettant aux joueurs de piano de communiquer entre eux dans
                         la France
@@ -113,6 +151,7 @@
                         <div id="color1"></div>
                         <div id="color2"></div>
                         <div id="color3"></div>
+
                     </div>
                     <h3>Outils</h3>
                     <p>
@@ -126,17 +165,9 @@
                 </div><!-- end media -->
             </div>
         </div>
-
-        <div class="btn-group" aria-label="...">
-            <button type="button" class="btn btn-default"><a href="#"
-                    class="sim-btn btn-hover-new my-5 align-items-center" data-text="Dowload"><span>Télécharger le
-                        dossier</span></a></button>
-            <button type="button" class="btn btn-default"> <a href="#"
-                    class="sim-btn btn-hover-new my-5 align-items-center" data-text="Dowload"><span>Voir le
-                        prototypage</span></a></button>
-        </div>
-
-
+        <div class="align-items-center">
+            <a href="#" class="sim-btn btn-hover-new my-5 align-items-center" data-text="Dowload"><span>Télécharger le
+                    dossier</span></a></div>
         <hr>
         <section>
             <div class="row m-5">
@@ -172,21 +203,50 @@
 
             </div>
         </section>
-
-        <section>
-            <div class="row m-5">
-                <div class="col-12">Personna
-                    <img class="img-fluid" src="images/persona.png">
-                </div>
-                <div class="col-12">
-                    <img class="img-fluid" src="images/concurrents.png">
-                </div>
-            </div>
-        </section>
-
-
-
     </div><!-- end container -->
+
+
+
+
+
+
+    <footer id="contact" class="section db" style="background: url('images/diagmonds.png')">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Contactez-moi !</h3>
+            </div>
+            <h2 class="social">
+                <a href="https://www.linkedin.com/in/zazou-ivy/" title="" class="linkedin" target="_blank">
+                    <i class="fab fa-linkedin-in social_icon"></i>
+                </a>
+                <a href="https://github.com/zazou-ivy" title="" class="github" target="_blank">
+                    <i class="fab fa-github social_icon"></i>
+                </a>
+                <a href="mailto:lea..myriam.zaoui@gmail.com" title="" class="email"><i
+                        class="fa fa-envelope social_icon" target="_blank"></i>
+                </a>
+            </h2>
+        </div>
+    </footer>
+
+    <!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- Camera Slider -->
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/parallaxie.js"></script>
+    <script src="js/headline.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
 </body>
 
 </html>
