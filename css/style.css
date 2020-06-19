@@ -578,8 +578,8 @@ xclip
 	line-height: 50px;
 	height: 50px;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 20px;
+	margin-left: 0px;
 	margin-top: 0px;
 	cursor: pointer;
 }
@@ -2478,35 +2478,36 @@ color: #fad618;
 
 }
 #color1 {
+    padding-right: 10px;
     width: 60px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: black;
 }
 #color2 {
     width: 60px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: blue;
 }
 #color3 {
     width: 60px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: orange;
 }
 
 #color4 {
     width: 60px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: #8b4e54;
 }
 
 #color6 {
     width: 60px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: #F8F8F5;
     border: solid 1px black;
 }
@@ -2534,6 +2535,9 @@ height: auto;
     background-color: #2a2626;
 }
 
+.techno{
+display: flex;
+}
 /* =====================timeline================ */
 .timeline {
     list-style: none;
