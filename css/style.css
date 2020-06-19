@@ -2516,6 +2516,8 @@ color: #fad618;
     text-align: center
     
 }
+#about{
+    background-image: url('images/bg.png');}
 
 .social_icon{
 font-size: 2rem;
