@@ -444,9 +444,7 @@ xclip
 }
 
 #mainNav.navbar-shrink {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #2a2626;
+    background-color: #110f0f;
 }
 
 #clouds{
@@ -2480,34 +2478,34 @@ color: #fad618;
 
 }
 #color1 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 20px;
     background: black;
 }
 #color2 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 20px;
     background: blue;
 }
 #color3 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 20px;
     background: orange;
 }
 
 #color4 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 20px;
     background: #8b4e54;
 }
 
 #color6 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 20px;
     background: #F8F8F5;
     border: solid 1px black;
