@@ -1223,7 +1223,7 @@ xclip
 }
 
 .hover-up{
-	background: #076799;
+	background: #7196aa;
 }
 
 .service-widget .post-media_pp .hover-up{
@@ -2531,6 +2531,7 @@ height: auto;
     padding-bottom: 10px;
     background-color: #2a2626;
 }
+
 /* =====================timeline================ */
 .timeline {
     list-style: none;
