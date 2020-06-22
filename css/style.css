@@ -2504,6 +2504,13 @@ color: #fad618;
     background: #8b4e54;
 }
 
+#color5{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background : #3f497f
+}
+
 #color6 {
     width: 60px;
     height: 60px;
