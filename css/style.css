@@ -2483,6 +2483,7 @@ color: #fad618;
     height: 60px;
     border-radius: 30px;
     background: black;
+    margin: 0 10px;
 }
 #color2 {
     width: 60px;
@@ -2495,6 +2496,8 @@ color: #fad618;
     height: 60px;
     border-radius: 30px;
     background: orange;
+    margin: 0 10px;
+
 }
 
 #color4 {

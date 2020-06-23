@@ -81,8 +81,8 @@
                         <p>Le réseau social doit : <br>
                             - contenir des publications avec plusieurs informations (titre, genre, auteur,
                             etc.) <br>
-                            - posséder un système de login/logout pour connecter l'utilisateur à la base de données <br>
-
+                            - posséder un système de login-logout pour connecter/déconnecter l'utilisateur <br>
+                            - posséder un système d'inscription au site web <br>
                             - l'utilisateur une fois connecté devra être en mesure de publier un post
                         </p>
                     </div>
@@ -98,12 +98,18 @@
                     <div class="col-md-12">
                         <h3>Technologies</h3>
                         <div class="techno">
-                            <i class="fab fa-symfony technology_icon"></i>
-                            <i class="fab fa-php technology_icon"></i>
-                            <i class="fab fa-html5 technology_icon"></i>
-                            <i class="devicon-doctrine-plain technology_icon"></i>
-                            <i class="fab fa-bootstrap technology_icon"></i>
-                            <i class="fab fa-css3-alt technology_icon "></i>
+                            <i class="fab fa-symfony technology_icon" data-toggle="tooltip" data-placement="top"
+                                title="symfony"></i>
+                            <i class="fab fa-php technology_icon" data-toggle="tooltip" data-placement="top"
+                                title="PHP"></i>
+                            <i class="fab fa-html5 technology_icon" data-toggle="tooltip" data-placement="top"
+                                title="HTML"></i>
+                            <i class="devicon-doctrine-plain technology_icon" data-toggle="tooltip" data-placement="top"
+                                title="Doctrine"></i>
+                            <i class="fab fa-bootstrap technology_icon" data-toggle="tooltip" data-placement="top"
+                                title="Bootstrap"></i>
+                            <i class="fab fa-css3-alt technology_icon " data-toggle="tooltip" data-placement="top"
+                                title="CSS"></i>
                         </div>
                     </div><!-- end media -->
                 </div>
@@ -133,12 +139,16 @@
                     </div>
                 </div>
                 <div class="row my-5">
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/kimie3.png">
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/kimie4.png">
-
+                    <div class="col-12">
+                        <h3>Structure du projet</h3>
+                        <p class="pb-3">Kaiko-bu a été développé majoritairement via les technologies PHP, PDO, Symfony,
+                            Doctrine,
+                            bootstrap, HTML, CSS. Au début du projet,
+                            Il fallait tout d'abord se concentrer sur la création de la base de données ( trouver les
+                            différentes informations concernant les futurs post des utilisateurs ).Au début, nous avions
+                            opté pour une structure de la base de données en PDO. Nous avons par la suite changé cette
+                            structure pour une structure MVC (Model Vue Controller) pour pouvoir au mieux migrer le site
+                            en Symfony via Doctrine</p>
                     </div>
                 </div>
             </section>
@@ -149,37 +159,38 @@
             <section>
                 <h2>Aperçu du projet</h2>
                 <div class="row my-3">
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/kimie.png">
+                    <div class="col-6 shadow p-3 mb-5 bg-white rounded mb-5">
+                        <img class="img-fluid" src="images/kaiko-bu.png">
+                    </div>
+                    <div class="col-6 mb-5">
+                        <h3>Arrivée sur le site</h3>
+                        <p>Une fois arrivé sur le site, une liste de post est affichée contenant les différents openings
+                            publiés par les utilisateurs.</p>
+                    </div>
+                    <div class="col-6 mb-5">
+                        <h3>Inscription</h3>
+                    </div>
+                    <div class="col-6 shadow p-3 mb-5 bg-white rounded">
+                        <img class="img-fluid" src="images/registration.png">
+                    </div>
+                    <div class="col-6  shadow p-3 mb-5 bg-white rounded">
+                        <img class="img-fluid" src="images/kaiko-bu2.png">
+
                     </div>
                     <div class="col-6">
-                        <img class="img-fluid" src="images/kimie2.png">
+                        <h3>Authentification</h3>
+
+                    </div>
+                    <div class="col-6">
+                        <h3>Publication</h3>
+
+                    </div>
+                    <div class="col-6  shadow p-3 mb-5 bg-white rounded">
+                        <img class="img-fluid" src="images/kaiko-bu4.png">
 
                     </div>
                 </div>
-                <div class="row my-5">
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/kimie3.png">
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/kimie4.png">
 
-                    </div>
-                </div>
-            </section>
-            <hr class="m-5">
-
-            <section>
-                <h2>Structure de la page d'accueil</h2>
-                <div class="row my-3">
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/struct1.png">
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/struct2.png">
-
-                    </div>
-                </div>
             </section>
 
 
