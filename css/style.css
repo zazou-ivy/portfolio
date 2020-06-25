@@ -2548,6 +2548,10 @@ height: auto;
 .techno{
 display: flex;
 }
+
+#error404{
+    color: #7c3030;
+}
 /* =====================timeline================ */
 .timeline {
     list-style: none;
