@@ -40,6 +40,11 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://kit.fontawesome.com/5bb1d77498.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </head>
 
 <body>
@@ -96,12 +101,14 @@
                         <h2 class="font-weight-bold">PianoChat <small>~ Landing page </small>
                         </h2>
                         <h3> Présentation du concept</h3>
-                        <p class="text-justify">Ce projet reprend le concept du design d'application réalisé au cours de
-                            la
-                            formation Passerelle numérique (voir le projet <a href="pianochat.html">
-                                PianoChat </a>). Il s'agit d'une landing page de l'application de
-                            PianoChat, réseau social
-                            permettant aux joueurs de piano de communiquer entre eux dans la France entière. </p>
+                        <p class="text-justify">
+
+                            Ce projet reprend le concept du design d'application réalisé au cours de la formation
+                            Passerelle numérique. Il s'agit d'une landing page de l'application de PianoChat, réseau
+                            social permettant aux joueurs de piano de communiquer entre eux dans la France entière (voir
+                            le projet <a href="pianochat.html">
+                                PianoChat </a>).
+                        </p>
                         <h3> Objectifs</h3>
                         <p class="m-0">La landing page doit :
                         <ul>
@@ -151,9 +158,11 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
-                    <div class="row pt-3">
+                    <div class="row py-3">
+
                         <a href="https://dev-pianochat.pantheonsite.io/" class="sim-btn btn-hover-new "
                             data-text="Voir le site" download="dossier_pianoChat.pdf" target="_blank"><span>Voir le
                                 site</span></a>
@@ -161,6 +170,36 @@
                 </div>
 
             </div>
+            <p class="py-4">
+                N.B. : le projet étant hébergé sur un serveur de développement gratuit, vous pouvez voir
+                s'afficher une erreur 504. En cas d'erreur, rafraichissez la page avec les touches CTRL Shift R.</p>
+
+            <hr class="m-5">
+
+
+            <section>
+                <h2>Aperçu du site</h2>
+                <div class="row my-3">
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="images/piano1.png"><img src="images/piano1.png"
+                                class="img-fluid img-rounded"></a>
+                    </div>
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="images/piano2.png"><img src="images/piano2.png"
+                                class="img-fluid img-rounded"></a>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="images/piano4.png"><img src="images/piano4.png"
+                                class="img-fluid img-rounded"></a>
+                    </div>
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="images/piano6.png"><img src="images/piano6.png"
+                                class="img-fluid img-rounded"></a>
+                    </div>
+                </div>
+            </section>
 
             <hr class="m-5">
 
@@ -168,15 +207,14 @@
                 <h2>Construction de la page avec un page builder</h2>
                 <div class="row my-3">
                     <div class="col-6 shadow p-3 mb-5 bg-white rounded mb-5">
-                        <img class="img-fluid" src="images/screen-lp.png">
+                        <a data-fancybox="gallery" href="images/screen-lp.png"><img src="images/screen-lp.png"
+                                class="img-fluid img-rounded"></a>
                     </div>
                     <div class="col-6 mb-5">
                         <p>La landing page devait reprendre approximativement le même design que le projet de design
-                            d'application réalisé en début d'année.
+                            d'application réalisé au cours de la formation passerelle numérique.
                             <br> <br>
-                            Je suis restée sur les mêmes tons neutres. Grâce au
-                            constructeur de page elementor, j'ai pu méthodiquement développer le site et adapter le
-                            design au thème du piano.</p>
+                        </p>
                     </div>
             </section>
             <hr class="m-5">
@@ -185,7 +223,8 @@
                 <h2>Mise en place d'un custom post type</h2>
                 <div class="row my-3">
                     <div class="col-6 shadow p-3 mb-5 bg-white rounded mb-5">
-                        <img class="img-fluid" src="images/cpt.png">
+                        <a data-fancybox="gallery" href="images/cpt.png"><img src="images/cpt.png"
+                                class="img-fluid img-rounded"></a>
                     </div>
                     <div class="col-6 mb-5">
                         <p>
