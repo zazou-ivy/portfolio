@@ -40,6 +40,12 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://kit.fontawesome.com/5bb1d77498.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
 </head>
 
 <body>
@@ -92,7 +98,7 @@
                 <div class="col-md-8 ">
                     <div class="message-box">
                         <a href="index.html#projects">
-                            <h3><i class="fas fa-arrow-left"></i> Retour aux projets</h3>
+                            <h4><i class="fas fa-arrow-left"></i> Retour aux projets</h4>
                         </a>
                         <h2 class="font-weight-bold">PianoChat</h2>
                         <h3> Présentation du concept</h3>
@@ -122,9 +128,9 @@
                             <div class="col-6">
                                 <h3>Couleurs</h3>
                                 <div class="colors">
-                                    <div id="color1"></div>
-                                    <div id="color2"></div>
-                                    <div id="color3"></div>
+                                    <div class="color black-color"></div>
+                                    <div class="color blue-color"></div>
+                                    <div class="color orange-color"></div>
                                 </div>
                             </div>
 
@@ -140,87 +146,96 @@
 
                 <div class="col-md-4">
                     <div class="right-box-pro wow fadeIn">
-                        <img src="images/poster.png" class="img-fluid img-rounded"> </div><!-- end media -->
+                        <a data-fancybox="gallery" href="images/poster.png"><img src="images/poster.png"
+                                class="img-fluid img-rounded"></a>
+                    </div>
+                </div>
+
+                <div class="row pt-2">
+                    <a href="dossier_pianoChat.pdf" class="sim-btn btn-hover-new" data-text="Voir le dossier"
+                        download="dossier_pianoChat.pdf" target="_blank"><span>Voir le dossier</span></a>
+                    <a href="https://www.figma.com/file/LlQoGEC5pqvB1ybp6nOk77/Design-v1?node-id=0%3A1"
+                        class="sim-btn btn-hover-new" data-text="Voir les maquettes" download="dossier_pianoChat.pdf"
+                        target="_blank"><span>Voir les maquettes</span></a> <a
+                        href="https://www.figma.com/proto/LlQoGEC5pqvB1ybp6nOk77/Design-v1?node-id=614%3A1&scaling=min-zoom"
+                        class="sim-btn btn-hover-new" data-text="Voir le prototype" download="dossier_pianoChat.pdf"
+                        target="_blank"><span>Voir le prototype</span></a>
                 </div>
             </div>
+            <hr class="my-5">
 
-            <div class="row pt-2">
-                <a href="dossier_pianoChat.pdf" class="sim-btn btn-hover-new" data-text="Voir le dossier"
-                    download="dossier_pianoChat.pdf" target="_blank"><span>Voir le dossier</span></a>
-                <a href="https://www.figma.com/file/LlQoGEC5pqvB1ybp6nOk77/Design-v1?node-id=0%3A1"
-                    class="sim-btn btn-hover-new" data-text="Voir les maquettes" download="dossier_pianoChat.pdf"
-                    target="_blank"><span>Voir les maquettes</span></a> <a
-                    href="https://www.figma.com/proto/LlQoGEC5pqvB1ybp6nOk77/Design-v1?node-id=614%3A1&scaling=min-zoom"
-                    class="sim-btn btn-hover-new" data-text="Voir le prototype" download="dossier_pianoChat.pdf"
-                    target="_blank"><span>Voir le prototype</span></a>
-            </div>
-
-            <hr class="m-5">
-            <section>
+            <section class="my-5">
                 <h2>Maquettes haute fidélité</h2>
                 <div class="row my-5">
-                    <div class="col-4 text-center">
-                        <img class="img-fluid" src="images/profile_pianochat.png">
+                    <div class="col-3 text-center">
+                        <a data-fancybox="gallery" href="images/profile_pianochat.png"><img
+                                src="images/profile_pianochat.png" class="img-fluid img-rounded"></a>
                         <p class="font-weight-bold">Profil </p> Visualisation des photos postées par les
                         autres
                         utilisateurs
                     </div>
-                    <div class="col-4 text-center">
-                        <img class="img-fluid" src="images/actu.png">
-                        <p class="font-weight-bold ">Accueil </p> Visualisation du fil d’actualités et possibilité de
+                    <div class="col-3 text-center">
+                        <a data-fancybox="gallery" href="images/actu.png"><img src="images/actu.png"
+                                class="img-fluid img-rounded"></a>
+                        <p class="font-weight-bold ">Accueil </p> Visualisation du fil d’actualités et possibilité
+                        de
                         publier un statut <br>
                     </div>
-                    <div class="col-4 text-center">
-                        <img class="img-fluid" src="images/conversation.png">
+                    <div class="col-3 text-center">
+                        <a data-fancybox="gallery" href="images/conversation.png"><img src="images/conversation.png"
+                                class="img-fluid img-rounded"></a>
                         <p class="font-weight-bold ">Messages </p> Envoi de
                         messages aux
                         autres
                         utilisateurs
                     </div>
 
-                </div>
-                <div class="row my-5">
 
-                    <div class="col-4 text-center">
-                        <img class="img-fluid" src="images/search_teacher.png">
+                    <div class="col-3 text-center">
+                        <a data-fancybox="gallery" href="images/search_teacher.png"><img src="images/search_teacher.png"
+                                class="img-fluid img-rounded"></a>
                         <p class="font-weight-bold ">Professeurs </p> Prise de contact avec des
                         professeurs de piano de la région pour des cours particuliers
                     </div>
-                    <div class="col-4 text-center">
-                        <img class="img-fluid" src="images/teachers.png">
+                    <div class="col-3 text-center">
+                        <a data-fancybox="gallery" href="images/teachers.png"><img src="images/teachers.png"
+                                class="img-fluid img-rounded"></a>
                         <p class="font-weight-bold ">Professeurs </p> Choix des prix les plus intéréssants pour les
                         cours de piano
                     </div>
-                    <div class="col-4 text-center">
-                        <img class="img-fluid" src="images/view_profiles.png">
+                    <div class="col-3 text-center">
+                        <a data-fancybox="gallery" href="images/view_profiles.png"><img src="images/view_profiles.png"
+                                class="img-fluid img-rounded"></a>
                         <p class="font-weight-bold ">Profil </p> Visualisation des profils des utilisateurs
                     </div>
 
                 </div>
             </section>
-            <hr class="m-4">
+            <hr class="m-5">
             <section class="pb-3">
-                <h2 class="text-right">Persona</h2>
                 <div class="row my-2 ">
                     <div class="col-8 ">
 
                         <a data-fancybox="gallery" href="images/persona.png"><img src="images/persona.png"
                                 class="img-fluid img-rounded"></a> </div>
                     <div class="col-4 text-justify">
+                        <h2 class="text-right">Persona</h2>
 
-                        C’est la représentation fictive mais non-abstraite de l’utilisateur idéal. Ici notre utilisateur
+                        C’est la représentation fictive mais non-abstraite de l’utilisateur idéal. Ici notre
+                        utilisateur
                         est une femme
                         qui pratique le piano pendant son temps libre.
                     </div>
                 </div>
             </section>
-            <hr class="m-4">
+            <hr class="m-5">
 
             <section class="pb-3">
-                <h2>User-flow</h2>
                 <div class="row my-2">
 
                     <div class="col-6 text-justify">
+                        <h2>User-flow</h2>
+
                         L'user flow est la représentation des utilisations qui peuvent être empruntées
                         lors de l'emploi de l'application. Comme fonctionnalités, nous retrouvons :
 
@@ -232,8 +247,8 @@
                             <li>La recherche</li>
                         </ul>
                     </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/wireframe.png">
+                    <div class="col-6"><a data-fancybox="gallery" href="images/wireframe.png"><img
+                                src="images/wireframe.png" class="img-fluid img-rounded"></a>
                     </div>
                 </div>
             </section>
@@ -244,7 +259,8 @@
                 <p class="mb-0">Les retours utilisateurs permettent de voir comment l’application est perçue par
                     l’utilisateur. Pour
                     avoir des retours utilisateurs sans chercher à les influencer, je suis allée à la rencontre de
-                    personnes susceptibles de tester l’application afin de voir leur utilisation en situation réelle et
+                    personnes susceptibles de tester l’application afin de voir leur utilisation en situation réelle
+                    et
                     ainsi, comprendre leurs blocages éventuels. Ces retours m'ont permis de modifier :
                 <ul>
                     <li> la couleur des textes qui n'était pas assez lisible</li>
@@ -253,19 +269,24 @@
                 </p>
                 <div class="row my-4">
                     <div class="col-4">
-                        <img class="img-fluid" src="images/utilisateur1.png">
+                        <a data-fancybox="gallery" href="images/utilisateur1.png"><img src="images/utilisateur1.png"
+                                class="img-fluid img-rounded"></a>
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid" src="images/utilisateur2.png">
+                        <a data-fancybox="gallery" href="images/utilisateur2.png"><img src="images/utilisateur2.png"
+                                class="img-fluid img-rounded"></a>
                     </div>
 
                     <div class="col-4">
-                        <img class="img-fluid" src="images/utilisateur3.png">
+                        <a data-fancybox="gallery" href="images/utilisateur3.png"><img src="images/utilisateur3.png"
+                                class="img-fluid img-rounded"></a>
                     </div>
                 </div>
             </section>
 
         </div><!-- end container -->
+    </div>
+
     </div>
     <footer id="contact" class="section db" style="background: url('images/diagmonds.png')">
         <div class="container">
@@ -279,12 +300,13 @@
                 <a href="https://github.com/zazou-ivy" title="" class="github" target="_blank">
                     <i class="fab fa-github social_icon"></i>
                 </a>
-                <a href="mailto:lea..myriam.zaoui@gmail.com" title="" class="email"><i
-                        class="fa fa-envelope social_icon" target="_blank"></i>
+                <a href="mailto:lea.myriam.zaoui@gmail.com" title="" class="email"><i class="fa fa-envelope social_icon"
+                        target="_blank"></i>
                 </a>
             </h2>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>

@@ -40,6 +40,11 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://kit.fontawesome.com/5bb1d77498.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </head>
 
 <body>
@@ -91,7 +96,7 @@
                 <div class="col-md-6">
                     <div class="message-box">
                         <a href="index.html#projects">
-                            <h3><i class="fas fa-arrow-left"></i> Retour aux projets</h3>
+                            <h4><i class="fas fa-arrow-left"></i> Retour aux projets</h4>
                         </a>
                         <h2 class="font-weight-bold">Open museum</h2>
                         <h3> Présentation du concept</h3>
@@ -103,6 +108,9 @@
                         <h3> Objectifs</h3>
                         <p class="mb-0">
                         <ul>
+                            <li>l'application doit afficher tous les musées de la région PACA de la base de données
+                                publique open
+                                data</li>
                             <li>Les musées doivent posséder une fiche d'informations avec tous les détails du musée</li>
                             <li>les musées doivent posséder une carte indiquant l'adresse du musée via le module leaflet
                             </li>
@@ -133,10 +141,10 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="col-md-12 pb-4">
+                    <div class="col-md-12 py-4">
                         <div class="right-box-pro wow fadeIn">
-                            <img src="images/small_om_home.png" alt="" class="img-fluid img-rounded">
-
+                            <a data-fancybox="gallery" href="images/small_om_home.png"><img
+                                    src="images/small_om_home.png" class="img-fluid img-rounded"></a>
                         </div><!-- end media -->
                     </div>
 
@@ -145,28 +153,27 @@
 
             <div class="row">
                 <a href="https://zazou-ivy.github.io/Kimie-beauty_v2/" class="sim-btn btn-hover-new"
-                    data-text="See the website" download="dossier_pianoChat.pdf" target="_blank"><span>Voir le
+                    data-text="Voir le site" download="dossier_pianoChat.pdf" target="_blank"><span>Voir le
                         site</span></a>
                 <a href="https://www.figma.com/file/LlQoGEC5pqvB1ybp6nOk77/Design-v1?node-id=0%3A1"
-                    class="sim-btn btn-hover-new" data-text="See the models" download="dossier_pianoChat.pdf"
+                    class="sim-btn btn-hover-new" data-text="Voir les maquettes" download="dossier_pianoChat.pdf"
                     target="_blank"><span>Voir les maquettes</span></a>
                 <a href="https://github.com/zazou-ivy/Kimie-beauty_v2" class="sim-btn btn-hover-new" data-text="Github"
                     target="_blank"><span>Source github</span></a>
             </div>
             <hr class="m-5">
             <section>
-                <h2>Maquettes haute fidélité</h2>
+                <h2>Aperçu du site</h2>
                 <div class="row my-5">
                     <div class="col-6 text-center">
-                        <img class="img-fluid" src="images/big_om_home.png">
-                        <p class="font-weight-bold">Profil </p> Visualisation des photos postées par les
-                        autres
-                        utilisateurs
+                        <a data-fancybox="gallery" href="images/big_om_home.png"><img src="images/big_om_home.png"
+                                class="img-fluid img-rounded"></a>
+                        <p class="font-weight-bold">Accueil </p> Visualisation des musées de la région PACA
                     </div>
                     <div class="col-6 text-center">
-                        <img class="img-fluid" src="images/description_museum.png">
-                        <p class="font-weight-bold ">Accueil </p> Visualisation du fil d’actualités et possibilité de
-                        publier un statut <br>
+                        <a data-fancybox="gallery" href="images/description_museum.png"><img
+                                src="images/description_museum.png" class="img-fluid img-rounded"></a>
+                        <p class="font-weight-bold ">Détails du musée </p> Description du musée <br>
                     </div>
                 </div>
             </section>
@@ -187,8 +194,8 @@
                 <a href="https://github.com/zazou-ivy" title="" class="github" target="_blank">
                     <i class="fab fa-github social_icon"></i>
                 </a>
-                <a href="mailto:lea..myriam.zaoui@gmail.com" title="" class="email"><i
-                        class="fa fa-envelope social_icon" target="_blank"></i>
+                <a href="mailto:lea.myriam.zaoui@gmail.com" title="" class="email"><i class="fa fa-envelope social_icon"
+                        target="_blank"></i>
                 </a>
             </h2>
         </div>

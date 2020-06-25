@@ -93,11 +93,15 @@ h1 {
 }
 
 h2 {
-    font-size: 22px
+    font-size: 23px;
+    font-weight: 500;
+
 }
 
 h3 {
-    font-size: 18px
+    font-size: 19px;
+    color : #5c5c74;
+    font-weight: 500;
 }
 
 h4 {
@@ -1223,7 +1227,7 @@ xclip
 }
 
 .hover-up{
-	background: #7196aa;
+	background: #0f2835;
 }
 
 .service-widget .post-media_pp .hover-up{
@@ -2477,47 +2481,33 @@ color: #fad618;
     /* justify-content: space-evenly; */
 
 }
-#color1 {
-    padding-right: 10px;
+
+.color{
+    margin-right: 10px;
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background: black;
-    margin: 0 10px;
+
 }
-#color2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+
+.black-color {
+    background: black;
+}
+.blue-color {
     background: blue;
 }
-#color3 {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+.orange-color {
     background: orange;
-    margin: 0 10px;
-
 }
-
-#color4 {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+.purple-color {
     background: #8b4e54;
 }
 
-#color5{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+.blue2-color{
     background : #3f497f
 }
 
-#color6 {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+.white-color {
     background: #F8F8F5;
     border: solid 1px black;
 }
@@ -2550,7 +2540,8 @@ display: flex;
 }
 
 #error404{
-    color: #7c3030;
+    color: #a53f3f;
+    line-height: 20px;
 }
 /* =====================timeline================ */
 .timeline {
