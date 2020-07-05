@@ -102,7 +102,8 @@
                         </a>
                         <h2 class="font-weight-bold">Kaîko-bu</h2>
                         <h3> Présentation du concept</h3>
-                        <p>Kaîko-bu est un réseau social réalisé au cours de la formation Passerelle numérique
+                        <p>Kaîko-bu est un réseau social développé en <strong>
+                                PHP </strong> réalisé au cours de la formation Passerelle numérique
                             permettant aux utilisateurs de publier leurs opening d'anime favoris.
                         </p>
                         <h3> Objectifs</h3>
@@ -140,6 +141,9 @@
                                 title="Bootstrap"></i>
                             <i class="fab fa-css3-alt technology_icon " data-toggle="tooltip" data-placement="top"
                                 title="CSS"></i>
+                            <i class="devicon-heroku-original technology_icon" data-toggle="tooltip"
+                                data-placement="top" title="Heroku"></i>
+
                         </div>
                     </div><!-- end media -->
                 </div>
@@ -151,32 +155,17 @@
                 <a href="https://github.com/zazou-ivy/kaiko-bu" class="sim-btn btn-hover-new" data-text="Github"
                     target="_blank"><span>Source Github</span></a>
             </div>
-            <hr class="m-5">
-            <section>
-                <h2>Processus du projet</h2>
-                <div class="row my-2">
-                    <div class="col-6">
-                        <h3>Phase d'idéation</h3>
-                        <p>Kaîko-bu est un site web contenant des publications des meilleurs openings d'anime
-                            pour les utilisateurs.
-                            <!-- J'ai choisi ce thème car c'est un sujet qui me plait particulièrement et que je trouve
-                            intéressant à exploiter. Je trouvais que le système de recommandation pour un réseau social
-                            d'anime pouvait être utile pour élargir les goûts musicaux des internautes.-->
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="images/kaiko-bu_title.png">
+            <section class="my-5 pt-3">
 
-                    </div>
-                </div>
                 <div class="row my-5">
-                    <div class="col-12">
-                        <h3>Structure du projet</h3>
+                    <div class="col-10">
+                        <h2>Structure du projet</h2>
                         <p class="pb-3">Kaiko-bu a été développé entièrement avec le language de programmation PHP en
-                            POO (programmation d'objet orienté objet) via
-                            une structure MVC (Model Vue Controller).
-                            Concernant les données, elles ont été générées grâce à l'interface ORM via un fichier JSON
-                            pour pouvoir apres afficher les données avec les vues en bootstrap.
+                            <strong> POO </strong> (programmation d'objet orienté objet) via
+                            une structure <strong> MVC </strong> (Model-Vue-Controller). <br>
+                            Concernant les données, elles ont été générées grâce à l'interface
+                            <strong> ORM </strong> via un fichier JSON
+                            pour pouvoir afficher les données avec les vues à l'aide de Bootstrap.
 
                             <!--Au début du projet,
                             Il fallait tout d'abord se concentrer sur la création de la base de données ( trouver les
@@ -189,20 +178,17 @@
                 </div>
             </section>
 
-            <hr class="m-5">
-
-
             <section>
-                <h2>Aperçu du projet</h2>
+                <h2>Fonctionnalités</h2>
                 <div class="row my-3">
                     <div class="col-5 shadow p-3 mb-5 bg-white rounded mb-5">
-                        <a data-fancybox="gallery" href="images/kaiko-bu.png"><img src="images/kaiko-bu.png"
+                        <a data-fancybox="gallery" href="images/home.png"><img src="images/home.png"
                                 class="img-fluid img-rounded"></a>
                     </div>
                     <div class="col-7 mb-5">
-                        <h3 class="text-right">Arrivée sur le site</h3>
+                        <h3 class="text-right">Accueil</h3>
                         <p class="text-justify">La page d'accueil possède tous les openings postés par les utilisateurs.
-                            Elle est visible par tous les visiteurs du site, y compris ceux qui ne sont inscrits.
+                            Elle est visible par tous les visiteurs du site, y compris ceux qui ne sont pas inscrits.
                         </p>
                     </div>
                     <div class="col-7 my-5 pb-5">
@@ -212,10 +198,10 @@
                             caractères.</p>
                     </div>
                     <div class="col-5 shadow p-3 my-5 mb-5 bg-white rounded">
-                        <a data-fancybox="gallery" href="images/registration.png"><img src="images/registration.png"
+                        <a data-fancybox="gallery" href="images/registration1.png"><img src="images/registration1.png"
                                 class="img-fluid img-rounded"></a> </div>
                     <div class="col-5  shadow p-3 my-5 mb-5 bg-white rounded">
-                        <a data-fancybox="gallery" href="images/kaiko-bu2.png"><img src="images/kaiko-bu2.png"
+                        <a data-fancybox="gallery" href="images/login.png"><img src="images/login.png"
                                 class="img-fluid img-rounded"></a>
                     </div>
                     <div class="col-7 my-5">
@@ -241,8 +227,18 @@
                         </ul>
                     </div>
                     <div class="col-5 shadow p-3 my-5 mb-5 bg-white rounded">
-                        <a data-fancybox="gallery" href="images/kaiko-bu4.png"><img src="images/kaiko-bu4.png"
+                        <a data-fancybox="gallery" href="images/post.png"><img src="images/post.png"
                                 class="img-fluid img-rounded"></a>
+                    </div>
+                    <div class="col-5  shadow p-3 my-5 mb-5 bg-white rounded">
+                        <a data-fancybox="gallery" href="images/search.png"><img src="images/search.png"
+                                class="img-fluid img-rounded"></a>
+                    </div>
+                    <div class="col-7 my-5">
+                        <h3 class="text-right">Recherche</h3>
+                        <p class="text-justify">L'utilisateur peut effectuer une recherche simple basé sur le nom de
+                            l'anime d'un opening.
+                        </p>
                     </div>
                 </div>
 
