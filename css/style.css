@@ -304,7 +304,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	background-color: black;
+	background-color: #090909;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -447,7 +447,7 @@ xclip
 }
 
 #mainNav.navbar-shrink {
-    background-color: #110f0f;
+    background-color: #070606;
 }
 
 #clouds{
@@ -2523,7 +2523,7 @@ color: #fad618;
 
 .social_icon{
 font-size: 2rem;
-    color:#d4c2c2;
+    color:#c2b86b;
 }
 
 #pianochat_section{
