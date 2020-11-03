@@ -2453,7 +2453,8 @@ padding-right: 5px;
 }
 
 #about h2{
-font-weight: 700;
+font-weight: 500;
+color: #515151;
 }
 
 .technology_icon{
@@ -2523,7 +2524,7 @@ color: #fad618;
 
 .social_icon{
 font-size: 2rem;
-    color:#c2b86b;
+    color:#d2c76e;
 }
 
 #pianochat_section{
@@ -2687,11 +2688,13 @@ a:hover{
   }
   .timeline-title {
     margin-top: 0;
-    color: inherit;
+    color: #84817c;
   }
   .timeline-body > p,
   .timeline-body > ul {
     margin-bottom: 0;
+    color: #464137;
+
   }
   .timeline-body > p + p {
     margin-top: 0px;

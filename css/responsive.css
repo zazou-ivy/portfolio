@@ -153,4 +153,10 @@
 	.timeline > li > .timeline-badge ,.timeline:before {
 		display: none;
 	}
+	.hidden{
+		display: none;
+	}
+	#about h2{
+		font-size: 28px ;
+	}
 }
