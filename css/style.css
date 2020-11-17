@@ -378,7 +378,7 @@ a img.aligncenter {
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 62px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 .heading p{
 	font-size: 18px;
@@ -423,7 +423,7 @@ xclip
   font-size: 30px;
 }
 .cd-headline.clip span b{
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 .cd-headline.clip .cd-words-wrapper {
   overflow: hidden;
@@ -2523,8 +2523,8 @@ color: #fad618;
     background-image: url('../images/light.png');}
 
 .social_icon{
-font-size: 2rem;
-    color:#d2c76e;
+font-size: 2.5rem;
+    color:#c7ad27;
 }
 
 #pianochat_section{
@@ -2547,7 +2547,8 @@ display: flex;
 }
 
 .text-orange{
-    background-color: #f0ad4e;
+    background-color: #fda232;
+    color: white;
 }
 
 .card-1{
