@@ -370,7 +370,7 @@ a img.aligncenter {
 	vertical-align: middle;
 	position: relative;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 10px;
     /* padding-bottom: 100px; */
 
 }
@@ -2561,8 +2561,8 @@ display: flex;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
- .diagmonds{
-    background-image: url(../images/diagmonds.png);
+ .background{
+    background-image: url(../images/prettyPhoto/code9.jpg);
     background-repeat: repeat;
  }
 
@@ -2689,7 +2689,7 @@ a:hover{
   }
   .timeline-title {
     margin-top: 0;
-    color: #84817c;
+    color: #a9a49a;
   }
   .timeline-body > p,
   .timeline-body > ul {
