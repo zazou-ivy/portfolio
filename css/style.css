@@ -2465,9 +2465,8 @@ color: #3a3a3a;
 }
 
 .languages_icon{
-    color: #e7a222;
     max-width: 100px; 
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 #welcome{
@@ -2547,7 +2546,7 @@ display: flex;
 }
 
 .text-orange{
-    background-color: #fda232;
+    background-color: #7da0bb;
     color: white;
 }
 
@@ -2689,7 +2688,7 @@ a:hover{
   }
   .timeline-title {
     margin-top: 0;
-    color: #a9a49a;
+    color: #727897;
   }
   .timeline-body > p,
   .timeline-body > ul {
@@ -2711,4 +2710,9 @@ padding-bottom: 0;
     background:#FFBA0A;
     /* border:1px solid red; */
     width:10%;
+  }
+
+  .course{
+
+    color : #727897;
   }
